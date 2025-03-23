@@ -56,7 +56,7 @@ body {
 }
 
 .title__sub-text {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .footer {
@@ -80,4 +80,18 @@ body {
 .btn:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 20%);
+}
+
+@media (max-width: 600px) {
+  .title__heading-main {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+
+  .card__content {
+    width: 85vw;
+  }
+
+  .title__sub-text {
+  }
 }
